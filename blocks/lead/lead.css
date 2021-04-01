@@ -1,5 +1,5 @@
 .lead {
-  width: calc(100% - 4px);
+  width: 100%;
   margin-top: 48px;
   display: flex;
   flex-direction: column;
@@ -13,7 +13,6 @@
 
 @media (min-width: 768px) {
   .lead {
-    width: 100%;
   }
 }
 

@@ -7,7 +7,7 @@
   background-size: 100% 100%;
   font-family: inherit;
   color: white;
-  min-height: 200px;
+  padding: 33px 16px 33px;
 }
 
 .cover__link::after {
@@ -30,21 +30,18 @@
 
 @media (min-width: 768px) {
   .cover__link {
-    min-height: 480px;
-    min-width: 768px;
+  padding: 115px 104px 115px;
   }
 }
 
 @media (min-width: 1024px) {
   .cover__link {
-    min-height: 640px;
-    min-width: 1024px;
+  padding: 195px 232px 195px;
   }
 }
 
 @media (min-width: 1280px) {
   .cover__link {
-    min-height: 740px;
-    min-width: 1184px;
+  padding: 245px 312px 245px;
   }
 }
