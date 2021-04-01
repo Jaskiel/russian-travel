@@ -1,0 +1,31 @@
+.lead {
+  width: calc(100% - 4px);
+  margin-top: 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: 'Inter', Arial, sans-serif;
+}
+
+@media (min-width: 768px) {
+  .lead {
+    width: 100%;
+  }
+}
+
+
+@media (min-width: 1024px) {
+  .lead {
+    width: calc(100% - 96px);
+    margin-top: 48px;
+  }
+}
+
+
+@media (min-width: 1280px) {
+  .lead {
+    margin-top: 48px;
+    width: calc(100% - 296px);
+  }
+}

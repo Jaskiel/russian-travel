@@ -1,0 +1,33 @@
+.place {
+  margin-bottom: 50px;
+}
+
+.place:last-child {
+  margin-bottom: 0;
+}
+
+
+@media (min-width: 768px) {
+  .place {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows:  repeat(3, minmax(min-content, max-content));
+    grid-template-areas:
+    "place__title place__website"
+    "place__image paragraph-zone"
+    "place__image paragraph-zone";
+    row-gap: 3em;
+    column-gap: 1.75em;
+    margin-bottom: 73px;
+  }
+  .place:last-child {
+    margin-bottom: 0;
+  }
+}
+
+
+@media (min-width: 1024px) {
+  .place {
+      column-gap: 2em;
+  }
+}

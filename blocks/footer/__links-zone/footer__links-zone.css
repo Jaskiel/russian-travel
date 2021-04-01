@@ -1,0 +1,19 @@
+.footer__links-zone {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0;
+  min-height: 248px;
+  margin-top: 0;
+  margin-bottom: 48px;
+}
+
+@media (min-width: 768px) {
+  .footer__links-zone {
+    flex-direction: row;
+    min-height: 18px;
+    margin-bottom: 0;
+  }
+}

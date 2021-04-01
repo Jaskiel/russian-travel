@@ -1,0 +1,10 @@
+.place__paragraph-zone {
+  grid-area: paragraph-zone;
+}
+
+
+@media (min-width: 768px) {
+  .place__paragraph-zone {
+    min-width: 352px;
+  }
+}

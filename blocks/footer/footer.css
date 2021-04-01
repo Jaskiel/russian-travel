@@ -1,0 +1,27 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-self: flex-start;
+  margin-top: 0;
+  font-family: 'Inter', Arial, sans-serif;
+  margin-left: 16px;
+  min-height: 310px;
+  min-width: 186px;
+}
+
+@media (min-width: 768px) {
+  .footer {
+    flex-direction: row;
+    margin: 0 24px 24px;
+    min-height: 18px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .footer {
+    flex-direction: row;
+    margin: 0 48px 24px;
+    min-height: 18px;
+  }
+}

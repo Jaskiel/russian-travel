@@ -1,0 +1,31 @@
+.cover {
+  font-family: 'Inter', Arial, sans-serif;
+  margin-top: 66px;
+  margin-bottom: 64px;
+  min-height: 200px;
+}
+
+
+@media (min-width: 768px) {
+  .cover {
+    margin-top: 90px;
+    margin-bottom: 88px;
+    min-height: 480px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .cover {
+    margin-top: 92px;
+    margin-bottom: 92px;
+    min-height: 640px;
+  }
+}
+
+
+@media (min-width: 1280px) {
+  .cover {
+    margin-left: 48px;
+    margin-right: 48px;
+  }
+}
