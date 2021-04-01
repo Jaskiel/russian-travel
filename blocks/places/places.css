@@ -3,6 +3,7 @@
   grid-template-columns: 1fr;
   display: grid;
   font-family: 'Inter', Arial, sans-serif;
+  max-width: 1430px;
 }
 
 
