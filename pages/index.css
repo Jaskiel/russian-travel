@@ -10,6 +10,8 @@
 
 @import url(../blocks/header/__lang-links/header__lang-links.css);
 
+@import url(../blocks/header/__list/header__list.css);
+
 @import url(../blocks/header/__lang-link/header__lang-link.css);
 
 @import url(../blocks/header/__lang-link/_status/header__lang-link_status_active.css);
@@ -37,10 +39,6 @@
 @import url(../blocks/intro/__list-item/intro__list-item.css);
 
 @import url(../blocks/intro/__numbers/intro__numbers.css);
-
-@import url(../blocks/intro/__list-item/_weight/intro__list-item_weight_bold.css);
-
-@import url(../blocks/intro/__list-item/_weight/intro__list-item_weight_normal.css);
 
 @import url(../blocks/photo-grid/photo-grid.css);
 

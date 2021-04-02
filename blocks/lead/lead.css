@@ -15,7 +15,6 @@
 @media (min-width: 1024px) {
   .lead {
     width: calc(100% - 96px);
-    margin-top: 48px;
   }
 }
 
