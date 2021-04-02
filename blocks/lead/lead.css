@@ -8,12 +8,7 @@
   font-family: 'Inter', Arial, sans-serif;
   margin-left: auto;
   margin-right: auto;
-  max-width: 1430px;
-}
-
-@media (min-width: 768px) {
-  .lead {
-  }
+  max-width: 1280px;
 }
 
 
@@ -27,7 +22,6 @@
 
 @media (min-width: 1280px) {
   .lead {
-    margin-top: 48px;
     width: calc(100% - 296px);
   }
 }

@@ -6,6 +6,7 @@
   text-align: center;
   letter-spacing: 0em;
   margin: 0 16px 40px 16px;
+  min-width: 288px;
 }
 
 
@@ -14,11 +15,18 @@
   margin: 0 64px 56px;
   font-size: 30px;
   line-height: 36px;
+  width: 640px;
   }
 }
 
 
 @media (min-width: 1024px) {
+  .lead__subtitle {
+  margin: 0 144px 56px;
+  }
+}
+
+@media (min-width: 1280px) {
   .lead__subtitle {
   margin: 0 144px 56px;
   }

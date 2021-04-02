@@ -16,16 +16,5 @@
     font-size: 18px;
     line-height: 22px;
     width: 360px;
-    height: 66px;
-  }
-}
-
-@media (min-width: 1024px) {
-  .cover__subtitle {
-  }
-}
-
-@media (min-width: 1280px) {
-  .cover__subtitle {
   }
 }

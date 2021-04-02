@@ -20,9 +20,6 @@
     column-gap: 1.75em;
     margin-bottom: 73px;
   }
-  .place:last-child {
-    margin-bottom: 0;
-  }
 }
 
 
