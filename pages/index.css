@@ -76,7 +76,7 @@
 
 @import url(../blocks/footer/__links-zone/footer__links-zone.css);
 
-@import url(../blocks/footer/__links-zone/__list/footer__links-zone__list.css);
+@import url(../blocks/footer/__list/footer__list.css);
 
 @import url(../blocks/footer/__link/footer__link.css);
 

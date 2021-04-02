@@ -1,13 +1,13 @@
-.footer__links-zone__list {
+.footer__list {
   margin-bottom: 32px;
 }
 
-.footer__links-zone__list:last-child {
+.footer__list:last-child {
     margin-bottom: 0;
 }
 
 @media (min-width: 768px) {
-  .footer__links-zone__list {
+  .footer__list {
     margin-bottom: 0;
     margin-right: 18px;
   }
