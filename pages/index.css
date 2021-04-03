@@ -10,7 +10,7 @@
 
 @import url(../blocks/header/__lang-links/header__lang-links.css);
 
-@import url(../blocks/header/__list/header__list.css);
+@import url(../blocks/header/__list-item/header__list-item.css);
 
 @import url(../blocks/header/__lang-link/header__lang-link.css);
 
@@ -74,7 +74,7 @@
 
 @import url(../blocks/footer/__links-zone/footer__links-zone.css);
 
-@import url(../blocks/footer/__list/footer__list.css);
+@import url(../blocks/footer/__list-item/footer__list-item.css);
 
 @import url(../blocks/footer/__link/footer__link.css);
 
